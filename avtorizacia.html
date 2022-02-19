@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>authorization</title>
+	<style type="text/css">
+
+		body {
+		position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+background: url(img/back.png) #282828 79%;
+
+}
+
+.registration
+{
+position: absolute;
+width: 30%;
+height: 80%;
+left: 35%;
+top: 10%;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+.reg {
+position: absolute;
+width: 100%;
+height: 20%;
+
+background: #00A3FF;
+border-radius: 20px;
+
+}
+h1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 78px;
+margin-left: 15%;
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.secondname {
+	position: absolute;
+width: 450px;
+height: 49px;
+margin-left: 11%;
+top: 25%;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.firstname {
+	position: absolute;
+width: 450px;
+height: 49px;
+margin-left: 11%;
+top: 35%;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.email {
+	position: absolute;
+width: 450px;
+height: 49px;
+margin-left: 11%;
+top: 45%;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.password {
+	position: absolute;
+width: 450px;
+height: 49px;
+margin-left: 11%;
+top: 55%;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.tryagain {
+	position: absolute;
+width: 450px;
+height: 49px;
+margin-left: 11%;
+top: 65%;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+
+p {
+ 	font-family: Montserrat;
+font-style: normal;
+letter-spacing: 0.1em;
+color: rgba(0, 0, 0, 0.5);
+margin-left: 10%;
+
+ }
+ img {
+ 	position: absolute;
+width: 23px;
+height: 23px;
+top: 25%;
+left: 2%;
+
+ }
+ .confirm {
+ 	position: absolute;
+width: 70%;
+height: 7%;
+margin-left:11% ;
+top: 72%;
+ }
+ .box {
+ 	position: absolute;
+width: 5%;
+height: 30%;
+top: 27%;
+left: 2%;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+ }
+ .create {
+ 	position: absolute;
+width: 400px;
+height: 60px;
+margin-left: 15% ;
+top: 80%;
+
+border: 1px solid #282828;
+box-sizing: border-box;
+border-radius: 20px;
+ }
+ h2 {
+ 	position: absolute;
+width: 50%;
+height: 10%;
+margin-left: 31%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 120%;
+line-height: 130%;
+
+
+letter-spacing: 0.1em;
+
+color: #000000;
+ }
+ a {
+ 	color: #000000;
+
+ }
+ .text {
+ 	position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+ }
+
+.quest {
+	margin-left: 30% ;
+margin-top: 125%;
+}
+.accept {
+	color: #000000;
+}
+.input {
+	margin-top: 3%;
+	margin-left: 10%;
+	border-style: none;
+	height: 50%;
+}
+.create:hover {
+	background: #00A3FF;
+}
+.add:hover {
+	color: #FFFFFF;
+}
+a {
+	cursor: pointer;
+}
+.avt:hover {
+	color: #00A3FF
+}
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="registration">
+	<div class="reg">
+		<h1>Регистрация</h1>
+	</div>
+	<div class="secondname">
+		<img src="img/person.png">
+		<input class="input" type="text" name="" placeholder="Фамилия">
+	</div>
+	<div class="firstname">
+		<img src="img/person.png">
+		<input class="input" type="text" name="" placeholder="Имя">
+	</div>
+	<div class="email">
+		<img src="img/e-mail.png">
+		<form action=""></form>
+		<input class="input" type="email" name="" placeholder="e-mail">
+	</div>
+	<div class="password">
+		<img src="img/key.png">
+		<input class="input" type="password" name="" placeholder="Пароль">
+	</div>
+	<div class="tryagain">
+		<img src="img/key.png">
+		<input class="input" type="password" name="" placeholder="Повторите пароль">
+	</div>
+	<div class="confirm">
+		<input class="box" type="checkbox"><p class="accept">Соглашение об использованных данных</p>
+	</div>
+	<div class="create">
+		<h2><a class="add" href="#">Создать аккаунт</a></h2>
+	</div>
+	<div class="quest">
+		<span class="text">Уже есть аккаунт?<a class="avt" href="#">Авторизоваться</a></span>
+		</div>
+</div>
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+		$(function(){
+						
+		});
+	</script>
+</body>
+</html>
